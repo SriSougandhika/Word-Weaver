@@ -1,4 +1,4 @@
-# 🚀 Google ADK Installation: ADK Agent Creation Step-By-Step For Beginners!
+# 🚀 Google ADK Installation & Agent Creation Step-By-Step For Beginners!
 Hi everyone! Finding issues with ADK installation? ADK not found? Do I need to handle environment variables? API key not found? ADK is running, but the agent is not giving responses?  
 
 To solve these, I have gone through various videos and decided to build an installation guide. 
