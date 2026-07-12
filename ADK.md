@@ -4,6 +4,20 @@ Hi everyone! Finding issues with ADK installation? ADK not found? Do I need to h
 To solve these, I have gone through various videos and decided to build an installation guide. 
 I did find the ADK documentation helpful, but it still confuses me a bit, so here's a noob's guide to building an agent. 
 
+## 💎 Contents:
+- [📦 Step-1: Install Pre-Requisites](#-step-1-install-pre-requisites)
+  - [Python](#11-python)
+  - [Pip Command](#12-pip-command)
+  - [VS Code / Antigravity IDE](#13-vs-code--antigravity-ide)
+  - [Google AI Studio Account for API Key](#14-google-ai-studio-account-for-api-key)
+- [🛠️ Step-2: Google ADK Installation](#%EF%B8%8F-step-2-google-adk-installation)
+  - [Setting up a Virtual Environment and installing ADK](#21-setting-up-a-virtual-environment-and-installing-adk)
+- [📂 Step-3: Building The Agent](#-step-3-building-the-agent)
+  - [Create the Agent](#31-create-the-agent)
+  - [Structure the Agent](#32-structure-the-agent)
+- [✨ Step-4: Running the Agent](#-step-4-running-the-agent)
+- [📝 Step-5: Troubleshooting Tips that worked for me](#-step-5-troubleshooting-tips-that-worked-for-me)
+
 ## 📦 Step-1: Install Pre-Requisites:
 ### 1.1 Python
 - Go to the [Python Official Website](https://www.python.org/downloads/) and hit download for whatever OS you are working on. I suggest using the latest compatible version.
@@ -30,7 +44,7 @@ I did find the ADK documentation helpful, but it still confuses me a bit, so her
 **Before hitting hurried commands of pip install**, we need to set up a virtual environment. Otherwise, it might not work properly. 
 Go to the location on your computer where you wish to create the agent repository. No need to create a specific folder for this agent; the ADK does it for us. 
 
-### 2.1 Setting up Virtual Environment and installing ADK
+### 2.1 Setting up a Virtual Environment and installing ADK
 - Open _Terminal/Power Shell_ inside this folder(where you would want the project repository to be created). 
 - Start by creating a **virtual environment** with the command `python3 -m venv .venv`
 - Next, you've got to **activate** it. Just creating it will not suffice. Activate it with the command `.venv\Scripts\activate.bat` (for CMD) or `.venv\Scripts\Activate.ps1` (for PowerShell).
@@ -52,12 +66,12 @@ Go to the location on your computer where you wish to create the agent repositor
 
 ## ✨ Step-4: Running the Agent
 So, I have two methods noted here, and I love the 2nd option! Before starting to run, ensure you're in the terminal, with the proper path where you have the project folder and virtual environment running.
-- **1-Direct Run**:  Use the command `adk run my_agent_name` and it should begin by showing the conversation between [user] and [root-agent].
+- **1-Direct Run**:  Use the command `adk run my_agent_name`, and it should begin by showing the conversation between [user] and [root-agent].
 - **2-Web Run**: Use the command `adk web`. This will launch the UI on localhost (a link like _http://127.0.0.1:8000/_) to showcase a chat-like UI with some seriously helpful **functionalities**. These involve **visualizing** the agentic schema you have created and seeing exactly how the backend flow is working. 
 
 To _stop running_ the agent, type `exit`, and you will be back in the venv (virtual environment) again. To _deactivate the venv_, type `deactivate`. 
 
-## 📝 Step-5 Troubleshooting tips that worked for me:
+## 📝 Step-5: Troubleshooting Tips that worked for me:
 - Configure the **__init__.py** file and use this to call the root agent in this file:
 ```
 from .agent import root_agent
