@@ -79,6 +79,7 @@ from .agent import root_agent
 _all_ = ["root_agent"]
 ```
 - Use the model **"gemini-3.5-flash"** (latest one) instead of **"gemini-2.5-flash"** in the code.
+- If the model seems not to respond at all, it might be the case that it did not read the api key properly. Go to the .env file, see if a variable GOOGLE_API_KEY is created, and check your api key over there. If it is not inserted, then insert it directly and try saving and running the agent again. 
 
 ## ❤️ Yay! You ran an agent successfully with ADK! 
 So, summing up, this is how you can simply set up and see the agent running! Try it out now! It is amazing what we can achieve with a simple set of instructions for the agent!
