@@ -1,0 +1,12 @@
+# Environment & Secrets
+.env
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# ADK Runtime Files
+.adk/
+*.db
