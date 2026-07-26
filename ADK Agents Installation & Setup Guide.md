@@ -28,10 +28,11 @@ I did find the ADK documentation helpful, but it still confuses me a bit, so her
 - Did not solve the problem? Refer to [pip-documentation](https://pip.pypa.io/en/stable/installation/)
 
 ### 1.3 VS Code / Antigravity IDE 
-- It doesn't really matter what IDE you use to access the files, but it is better to install one.
+It doesn't really matter what IDE you use to access the files, but it is better to install one.
 - For VS Code, begin [here](https://code.visualstudio.com/download)
 - For Antigravity, begin [here](https://antigravity.google/download)
-- If you ask my preference, I like Antigravity.
+
+If you ask my preference, I like _**Antigravity**_.
 
 ### 1.4 Google AI Studio Account for API Key:
 - If you do not have a [Google AI Studio](https://aistudio.google.com/) account created, create one by following the on-screen instructions.
