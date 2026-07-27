@@ -100,10 +100,22 @@ _**Start -> Welcome Agent -> Planner Agent -> Writer Agent -> End**_
 
 This was always the case even with a simple "Hello" as a user input. So we needed something like a condition. Hence, I broke it down into two things: one being root with planner sub-agent, and two being planner with writer as sub-agent. This narrowed down the structure to call the planner (as well as the writer) whenever the words were provided; until then, it waited at the welcome stage, which is the root agent here (earlier I had tried to use an LlmAgent for welcoming purposes).
 
+Current fixed and proper path:
+
+<img width="184" height="287" alt="flow diagram" src="https://github.com/user-attachments/assets/11d4b306-f3d8-4a2e-8b7b-572e3b40a7a8" />
+
 ---
 
 ## 🖥️ Code Implementation Visuals:
-_Uploading pictures and screenshots..._
+**How the output looks while processing:**
+
+<img width="959" height="473" alt="mid-process of request" src="https://github.com/user-attachments/assets/a733ba37-33a6-460c-a114-205e41a7c15e" />
+
+
+**How the final output looks (the story after it is generated):**
+
+<img width="959" height="473" alt="final output" src="https://github.com/user-attachments/assets/3fdd02d5-ecd8-477c-8055-a1022615c1b8" />
+
 
 ---
 
