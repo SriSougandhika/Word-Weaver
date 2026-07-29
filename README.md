@@ -1,6 +1,8 @@
 # 🧙‍♂️ Word Weaver
 A multi-agent storytelling assistant built using **Google ADK** and **Gemini**. The agent interacts with the user, collects the keywords, generates a plot outline, and writes a short story that incorporates all the requested words. 
 
+<img width="2455" height="331" alt="word-weaver workflow" src="https://github.com/user-attachments/assets/1e1499e0-db92-46b5-a4aa-2ea8ba95765b" />
+
 ---
 
 ## 🚀 Key Features
